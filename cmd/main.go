@@ -20,7 +20,8 @@ type Config struct {
 
 func setupConfiguration() (*Config, error) {
 	apiKey := os.Getenv("OPENWEATHERMAP_API_KEY")
-	cities := domain.RetrieveCitiesFromFile("./cities.txt")
+	filePath := os.Getenv("CITY_FILE_PATH")
+	cities := domain.RetrieveCitiesFromFile(filePath)
 
 	batches := domain.GenerateBatches(cities)
 
@@ -55,30 +56,6 @@ func runBatchSystem(config *Config, metric *prometheus.GaugeVec) {
 		}
 		logrus.Info("every batch has been handled, come back at the beginning of the list")
 	}
-}
-
-type MetricsMap struct {
-	cityMetrics map[string]prometheus.GaugeVec
-}
-
-func NewCityMetricsMap() *MetricsMap {
-	return &MetricsMap{
-		cityMetrics: make(map[string]prometheus.GaugeVec),
-	}
-}
-
-func CreateCityMetric(cityName string, metricMap *MetricsMap) prometheus.GaugeVec {
-	if _, exists := metricMap.cityMetrics[cityName]; !exists {
-		metricMap.cityMetrics[cityName] = *prometheus.NewGaugeVec(
-			prometheus.GaugeOpts{
-				Name: "city_temp",
-				Help: "temperature of cities in celsius",
-			},
-			[]string{"city"},
-		)
-		prometheus.MustRegister(metricMap.cityMetrics[cityName])
-	}
-	return metricMap.cityMetrics[cityName]
 }
 
 func setupMetric() *prometheus.GaugeVec {
