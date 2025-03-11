@@ -1,0 +1,100 @@
+London, United Kingdom
+Paris, France
+Rome, Italy
+Barcelona, Spain
+Madrid, Spain
+Berlin, Germany
+Amsterdam, Netherlands
+Vienna, Austria
+Prague, Czech Republic
+Budapest, Hungary
+Athens, Greece
+Venice, Italy
+Florence, Italy
+Munich, Germany
+Copenhagen, Denmark
+Stockholm, Sweden
+Oslo, Norway
+Helsinki, Finland
+Dublin, Ireland
+Edinburgh, United Kingdom
+Brussels, Belgium
+Lisbon, Portugal
+Porto, Portugal
+Milan, Italy
+Naples, Italy
+Seville, Spain
+Valencia, Spain
+Hamburg, Germany
+Frankfurt, Germany
+Zurich, Switzerland
+Geneva, Switzerland
+Lyon, France
+Marseille, France
+Nice, France
+Bordeaux, France
+Krakow, Poland
+Warsaw, Poland
+Gdansk, Poland
+Bucharest, Romania
+Sofia, Bulgaria
+Istanbul, Turkey
+St. Petersburg, Russia
+Moscow, Russia
+Kiev, Ukraine
+Minsk, Belarus
+Riga, Latvia
+Tallinn, Estonia
+Vilnius, Lithuania
+Ljubljana, Slovenia
+Zagreb, Croatia
+Belgrade, Serbia
+Sarajevo, Bosnia and Herzegovina
+Dubrovnik, Croatia
+Reykjavik, Iceland
+Monaco, Monaco
+Luxembourg City, Luxembourg
+Valletta, Malta
+Palermo, Italy
+Bologna, Italy
+Turin, Italy
+Cologne, Germany
+Rotterdam, Netherlands
+Antwerp, Belgium
+Bruges, Belgium
+Salzburg, Austria
+Innsbruck, Austria
+Bratislava, Slovakia
+Gothenburg, Sweden
+Malaga, Spain
+Porto, Portugal
+New York City, USA
+Los Angeles, USA
+Chicago, USA
+San Francisco, USA
+Toronto, Canada
+Montreal, Canada
+Mexico City, Mexico
+Rio de Janeiro, Brazil
+Buenos Aires, Argentina
+Cordoba, Argentina
+Sydney, Australia
+Melbourne, Australia
+Tokyo, Japan
+Kyoto, Japan
+Seoul, South Korea
+Beijing, China
+Shanghai, China
+Bangkok, Thailand
+Dubai, UAE
+Cairo, Egypt
+Cape Town, South Africa
+Marrakech, Morocco
+Casablanca, Morocco
+Mumbai, India
+New Delhi, India
+Jerusalem, Israel
+Auckland, New Zealand
+Vancouver, Canada
+São Paulo, Brazil
+Brasilia, Brazil
